@@ -1,0 +1,16 @@
+1. Find largest number to the left (ignore last), A
+2. Find largest number to the right of A, B
+3. (A * 10) + B => ANSWER
+
+
+ab            
+987654321111111 => idx[A] -> 0, idx[B] -> 1
+
+a             b
+811111111111119 => idx[A] -> 0, idx[B] -> 14
+
+             ab
+234234234234278 => idx[A] -> 13, idx[B] -> 14
+
+      a    b
+818181911112111 => idx[A] -> 6, idx[B] -> 11
